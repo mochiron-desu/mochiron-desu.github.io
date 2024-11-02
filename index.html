@@ -175,6 +175,37 @@
                 font-size: 1.5rem;
             }
         }
+
+        .language-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .language-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .language-name {
+            font-weight: 500;
+        }
+
+        .proficiency-dots {
+            display: inline-block;
+        }
+
+        @media (max-width: 600px) {
+            .language-list li {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .proficiency-dots {
+                margin-top: 0.25rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -225,7 +256,7 @@
                 </svg>
                 About Me
             </h2>
-            <p>I'm a CSE BTech student passionate about learning and exploring new technologies. With experience in Python, Node.js, C++, and JavaScript, I bring strong full-stack development skills and cloud computing knowledge to the table. As a team leader on various projects, I've honed my communication and organizational abilities, thriving in collaborative environments that foster creativity and innovation.</p>
+            <p>I'm a recent BTech graduate in Computer Science, passionate about learning and exploring new technologies. With expertise in Python, Node.js, C++, and JavaScript, I bring robust full-stack development skills along with practical knowledge in cloud computing. My experience as a team leader on various projects has sharpened my communication and organizational skills, and I thrive in collaborative environments that encourage creativity and innovation.</p>
         </section>
 
         <section id="experience">
@@ -289,7 +320,9 @@
                 <span class="skill">GraphQL</span>
                 <span class="skill">Apollo GraphQL</span>
                 <span class="skill">Python</span>
+                <span class="skill">React</span>
                 <span class="skill">Node.js</span>
+                <span class="skill">API development</span>
                 <span class="skill">C++</span>
                 <span class="skill">JavaScript</span>
             </div>
@@ -304,11 +337,55 @@
                 </svg>
                 Languages
             </h2>
-            <ul>
-                <li>English (Full Professional)</li>
-                <li>Malayalam (Native or Bilingual)</li>
-                <li>Japanese (Elementary)</li>
-                <li>Hindi (Professional Working)</li>
+            <ul class="language-list">
+                <li>
+                    <span class="language-name">English</span>
+                    <span class="proficiency-dots" aria-label="Full professional proficiency">
+                        <svg height="10" width="70">
+                            <circle cx="5" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="20" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="35" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="50" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="65" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                        </svg>
+                    </span>
+                </li>
+                <li>
+                    <span class="language-name">Malayalam</span>
+                    <span class="proficiency-dots" aria-label="Native or bilingual proficiency">
+                        <svg height="10" width="70">
+                            <circle cx="5" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="20" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="35" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="50" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="65" cy="5" r="4" fill="var(--accent-color)" />
+                        </svg>
+                    </span>
+                </li>
+                <li>
+                    <span class="language-name">Japanese</span>
+                    <span class="proficiency-dots" aria-label="Elementary proficiency">
+                        <svg height="10" width="70">
+                            <circle cx="5" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="20" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                            <circle cx="35" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                            <circle cx="50" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                            <circle cx="65" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                        </svg>
+                    </span>
+                </li>
+                <li>
+                    <span class="language-name">Hindi</span>
+                    <span class="proficiency-dots" aria-label="Professional working proficiency">
+                        <svg height="10" width="70">
+                            <circle cx="5" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="20" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="35" cy="5" r="4" fill="var(--accent-color)" />
+                            <circle cx="50" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                            <circle cx="65" cy="5" r="4" stroke="var(--accent-color)" stroke-width="1" fill="none" />
+                        </svg>
+                    </span>
+                </li>
             </ul>
         </section>
 
