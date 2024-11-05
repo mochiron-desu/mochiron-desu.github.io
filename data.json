@@ -1,0 +1,88 @@
+{
+    "basics": {
+      "name": "Suraj S",
+      "role": "Fullstack Developer @ TAABI",
+      "email": "suraj2003.work@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/suraj2003s",
+      "github": "https://github.com/mochiron-desu",
+      "about": "I'm a recent BTech graduate in Computer Science, passionate about learning and exploring new technologies. With expertise in Python, Node.js, C++, and JavaScript, I bring robust full-stack development skills along with practical knowledge in cloud computing. My experience as a team leader on various projects has sharpened my communication and organizational skills, and I thrive in collaborative environments that encourage creativity and innovation."
+    },
+    "experience": [
+      {
+        "title": "Graduate Engineer Trainee - Taabi Mobility Limited",
+        "period": "July 2024 - Present",
+        "description": "Full stack developer in Bengaluru, Karnataka, India"
+      },
+      {
+        "title": "Database Engineer - Reliance Industries Limited",
+        "period": "June 2023 - July 2023 (2 months)",
+        "description": "Maintained and recorded asset information in an efficient database system in Jamnagar, Gujarat, India"
+      },
+      {
+        "title": "Software Engineer - JPMorgan Chase & Co.",
+        "period": "May 2023 - June 2023 (2 months)",
+        "description": "Conducted market research, consumer needs analysis, and data analysis to create client recommendations"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Amrita Vishwa Vidyapeetham",
+        "degree": "Bachelor of Technology - BTech, Computer Science",
+        "period": "September 2020 - July 2024"
+      },
+      {
+        "institution": "Kokilaben Dhirubhai Ambani Reliance Foundation School",
+        "degree": "Class 12",
+        "period": "March 2019 - March 2020"
+      },
+      {
+        "institution": "Kokilaben Dhirubhai Ambani Reliance Foundation School",
+        "degree": "Class 10",
+        "period": "March 2017 - March 2018"
+      }
+    ],
+    "skills": [
+      "Flask",
+      "GraphQL",
+      "Apollo GraphQL",
+      "Python",
+      "React",
+      "Node.js",
+      "API development",
+      "C++",
+      "JavaScript"
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Full professional proficiency",
+        "level": 4
+      },
+      {
+        "name": "Malayalam",
+        "proficiency": "Native or bilingual proficiency",
+        "level": 5
+      },
+      {
+        "name": "Japanese",
+        "proficiency": "Elementary proficiency",
+        "level": 1
+      },
+      {
+        "name": "Hindi",
+        "proficiency": "Professional working proficiency",
+        "level": 3
+      }
+    ],
+    "certifications": [
+      "Foundations of Project Management",
+      "[Google Cloud Skill Badge] Baseline: Infrastructure",
+      "[Google Cloud Skill Badge] Google Cloud Computing Foundations: Infrastructure in Google Cloud",
+      "[Google Cloud Skill Badge] Build and Secure Networks in Google Cloud",
+      "Python (Basics)"
+    ],
+    "meta": {
+      "title": "Suraj S - Fullstack Developer Portfolio",
+      "description": "Suraj S's portfolio showcasing experience, skills, and projects as a full-stack developer with expertise in Python, Node.js, C++, and JavaScript. Recent BTech graduate with experience at TAABI, Reliance, and JPMorgan."
+    }
+  }
