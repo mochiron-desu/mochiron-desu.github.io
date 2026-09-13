@@ -1,89 +1,127 @@
 {
-    "basics": {
-      "name": "Suraj S",
-      "role": "Fullstack Developer @ TAABI",
-      "email": "suraj2003.work@gmail.com",
-      "linkedin": "https://www.linkedin.com/in/suraj2003s",
-      "github": "https://github.com/mochiron-desu",
-      "about": "I'm a recent BTech graduate in Computer Science, passionate about learning and exploring new technologies. With expertise in Python, Node.js, C++, and JavaScript, I bring robust full-stack development skills along with practical knowledge in cloud computing. My experience as a team leader on various projects has sharpened my communication and organizational skills, and I thrive in collaborative environments that encourage creativity and innovation."
+  "basics": {
+    "name": "Suraj S",
+    "role": "Fullstack Developer @ TAABI",
+    "email": "suraj2003.work@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/suraj2003s",
+    "github": "https://github.com/mochiron-desu",
+    "about": "Full-stack developer at Taabi Mobility, where I've spent the last two years building backend systems for a vehicle telematics platform — covering video telematics, fleet safety, payment services, and driver monitoring. I work mostly on the backend: Node.js/GraphQL microservices, PostgreSQL/TimescaleDB for time-series-heavy fleet data, Redis, and Kafka, with a focus on data pipelines, alerting systems, and dashboards that fleet safety teams rely on daily. Recognized as Employee of the Quarter for my work there. I bring the same full-stack range from earlier stints in database engineering and software engineering, and enjoy collaborative environments that reward curiosity and ownership."
+  },
+  "experience": [
+    {
+      "title": "Fullstack Developer - Taabi Mobility Limited",
+      "period": "July 2024 - Present",
+      "description": "Backend-leaning full-stack developer on a vehicle telematics platform in Bengaluru, Karnataka, India — building Node.js/GraphQL microservices, alerting and analytics pipelines, and data tooling across video telematics, fleet safety, payments, and driver monitoring. Started as a Graduate Engineer Trainee; recognized as Employee of the Quarter."
     },
-    "experience": [
-      {
-        "title": "Graduate Engineer Trainee - Taabi Mobility Limited",
-        "period": "July 2024 - Present",
-        "description": "Full stack developer in Bengaluru, Karnataka, India"
-      },
-      {
-        "title": "Database Engineer - Reliance Industries Limited",
-        "period": "June 2023 - July 2023 (2 months)",
-        "description": "Maintained and recorded asset information in an efficient database system in Jamnagar, Gujarat, India"
-      },
-      {
-        "title": "Software Engineer - JPMorgan Chase & Co.",
-        "period": "May 2023 - June 2023 (2 months)",
-        "description": "Conducted market research, consumer needs analysis, and data analysis to create client recommendations"
-      }
-    ],
-    "education": [
-      {
-        "institution": "Amrita Vishwa Vidyapeetham",
-        "degree": "Bachelor of Technology - BTech, Computer Science",
-        "period": "September 2020 - July 2024"
-      },
-      {
-        "institution": "Kokilaben Dhirubhai Ambani Reliance Foundation School",
-        "degree": "Class 12",
-        "period": "March 2019 - March 2020"
-      },
-      {
-        "institution": "Kokilaben Dhirubhai Ambani Reliance Foundation School",
-        "degree": "Class 10",
-        "period": "March 2017 - March 2018"
-      }
-    ],
-    "skills": [
-      "Flask",
-      "Fullstack Development",
-      "GraphQL",
-      "Apollo GraphQL",
-      "Python",
-      "React",
-      "Node.js",
-      "API development",
-      "C++",
-      "JavaScript"
-    ],
-    "languages": [
-      {
-        "name": "English",
-        "proficiency": "Full professional proficiency",
-        "level": 4
-      },
-      {
-        "name": "Malayalam",
-        "proficiency": "Native or bilingual proficiency",
-        "level": 5
-      },
-      {
-        "name": "Japanese",
-        "proficiency": "Elementary proficiency",
-        "level": 1
-      },
-      {
-        "name": "Hindi",
-        "proficiency": "Professional working proficiency",
-        "level": 3
-      }
-    ],
-    "certifications": [
-      "Foundations of Project Management",
-      "[Google Cloud Skill Badge] Baseline: Infrastructure",
-      "[Google Cloud Skill Badge] Google Cloud Computing Foundations: Infrastructure in Google Cloud",
-      "[Google Cloud Skill Badge] Build and Secure Networks in Google Cloud",
-      "Python (Basics)"
-    ],
-    "meta": {
-      "title": "Suraj S - Fullstack Developer Portfolio",
-      "description": "Suraj S's portfolio showcasing experience, skills, and projects as a full-stack developer with expertise in Python, Node.js, C++, and JavaScript. Recent BTech graduate with experience at TAABI, Reliance, and JPMorgan."
+    {
+      "title": "Database Engineer - Reliance Industries Limited",
+      "period": "June 2023 - July 2023 (2 months)",
+      "description": "Maintained and recorded asset information in an efficient database system in Jamnagar, Gujarat, India"
+    },
+    {
+      "title": "Software Engineer - JPMorgan Chase & Co.",
+      "period": "May 2023 - June 2023 (2 months)",
+      "description": "Conducted market research, consumer needs analysis, and data analysis to create client recommendations"
     }
+  ],
+  "education": [
+    {
+      "institution": "Amrita Vishwa Vidyapeetham",
+      "degree": "Bachelor of Technology - BTech, Computer Science",
+      "period": "September 2020 - July 2024"
+    },
+    {
+      "institution": "Kokilaben Dhirubhai Ambani Reliance Foundation School",
+      "degree": "Class 12",
+      "period": "March 2019 - March 2020"
+    },
+    {
+      "institution": "Kokilaben Dhirubhai Ambani Reliance Foundation School",
+      "degree": "Class 10",
+      "period": "March 2017 - March 2018"
+    }
+  ],
+  "skills": [
+    "Node.js",
+    "GraphQL",
+    "Apollo GraphQL",
+    "PostgreSQL",
+    "TimescaleDB",
+    "MySQL",
+    "Redis",
+    "Kafka",
+    "Azure",
+    "Fullstack Development",
+    "API development",
+    "Python",
+    "React",
+    "Flask",
+    "C++",
+    "JavaScript"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Full professional proficiency",
+      "level": 4
+    },
+    {
+      "name": "Malayalam",
+      "proficiency": "Native or bilingual proficiency",
+      "level": 5
+    },
+    {
+      "name": "Japanese",
+      "proficiency": "Elementary proficiency",
+      "level": 1
+    },
+    {
+      "name": "Hindi",
+      "proficiency": "Professional working proficiency",
+      "level": 3
+    }
+  ],
+  "certifications": [
+    "Foundations of Project Management",
+    "[Google Cloud Skill Badge] Baseline: Infrastructure",
+    "[Google Cloud Skill Badge] Google Cloud Computing Foundations: Infrastructure in Google Cloud",
+    "[Google Cloud Skill Badge] Build and Secure Networks in Google Cloud",
+    "Python (Basics)"
+  ],
+  "projects": [
+    {
+      "title": "Driver Behavior Intelligence Engine",
+      "description": "A Kafka-driven, Redis-backed engine that detects and clusters prolonged unsafe driving behavior across a fleet in near real time. Computes a weighted risk score per driver/vehicle with configurable priority across vehicle, customer, and global levels, persists clusters to PostgreSQL, and exposes results via GraphQL. Includes a live terminal dashboard for monitoring the pipeline.",
+      "stack": ["Node.js", "Kafka", "Redis", "PostgreSQL", "GraphQL"]
+    },
+    {
+      "title": "EV Telematics Analytics Service",
+      "description": "A new Node.js/Apollo GraphQL microservice built to serve analytics for electric vehicle telematics data, extending the platform's existing fleet analytics to EVs.",
+      "stack": ["Node.js", "Apollo GraphQL"]
+    },
+    {
+      "title": "Granular Safety Alerting for ADAS/DMS",
+      "description": "Redesigned a generic 'inactive vehicle' alert into two granular alerts — one for missing Driver Monitoring System signals (camera blocked, seatbelt, fatigue, distraction) and one for missing ADAS signals (forward collision, lane departure, pedestrian detection, following distance) — giving fleet safety teams more actionable alerts without new schema.",
+      "stack": ["Node.js", "PostgreSQL"]
+    },
+    {
+      "title": "Cross-System Data Validation Framework",
+      "description": "A configurable tool that compares Azure Parquet exports against live PostgreSQL tables to catch data drift and sync failures. Refactored into a multi-table, config-driven framework with a resilient auto-reconnecting Postgres client and parallel range-download support for large blobs; used to trace recurring data validation failures back to late-arriving telemetry.",
+      "stack": ["Node.js", "PostgreSQL", "Azure Blob Storage"]
+    },
+    {
+      "title": "Git Promotion CLI",
+      "description": "A CLI that automates promoting code through SIT → UAT → PROD branches, with JIRA integration, automatic commit categorization, and merge conflict prediction. Includes an opt-in AI-assisted PR description generator and a companion script that reconstructs commit history reachable only from the SIT branch.",
+      "stack": ["Node.js", "JIRA API", "GitHub CLI", "Groq LLM API"]
+    },
+    {
+      "title": "kubectlNav",
+      "description": "A Tkinter-based desktop tool for browsing Kubernetes logs — split-pane dashboard with a pod status sidebar and a multi-threaded architecture to keep log streaming responsive.",
+      "stack": ["Python", "Tkinter", "kubectl"]
+    }
+  ],
+  "meta": {
+    "title": "Suraj S - Fullstack Developer Portfolio",
+    "description": "Suraj S's portfolio showcasing experience, skills, and projects as a full-stack developer with backend expertise in Node.js, GraphQL, and PostgreSQL/TimescaleDB. Two years building fleet telematics systems at Taabi Mobility, with earlier experience at Reliance and JPMorgan."
   }
+}
