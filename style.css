@@ -220,3 +220,64 @@ ul {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px var(--shadow-color);
 }
+
+/* --- Projects section --- */
+
+#projects ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#projects li {
+    background-color: var(--bg-color);
+    border: 1px solid var(--shadow-color);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#projects li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px var(--shadow-color);
+}
+
+#projects li h3 {
+    color: var(--accent-color);
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+}
+
+#projects li p {
+    margin-bottom: 0.6rem;
+}
+
+#projects li a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#projects li a:hover {
+    text-decoration: underline;
+}
+
+.project-stack {
+    margin-top: 0.75rem;
+}
+
+.project-stack .skill {
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+}
+
+.project-stack .skill:hover {
+    transform: none;
+    box-shadow: none;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+}
